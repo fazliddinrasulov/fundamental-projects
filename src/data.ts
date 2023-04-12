@@ -1,0 +1,80 @@
+export const data = [
+  {
+    id: 1,
+    title: "Birthdays",
+    url: "https://github.com/",
+    img: "./images/1.png",
+  },
+  {
+    id: 2,
+    title: "Tours",
+    url: "https://github.com/",
+    img: "./images/2.png",
+  },
+  {
+    id: 3,
+    title: "Reviews",
+    url: "https://github.com/",
+    img: "./images/3.png",
+  },
+  {
+    id: 4,
+    title: "Questions",
+    url: "https://github.com/",
+    img: "./images/4.png",
+  },
+  {
+    id: 5,
+    title: "Menu",
+    url: "https://github.com/",
+    img: "./images/5.png",
+  },
+  {
+    id: 6,
+    title: "Tab Info",
+    url: "https://github.com/",
+    img: "./images/6.png",
+  },
+  {
+    id: 7,
+    title: "Slider",
+    url: "https://github.com/",
+    img: "./images/7.png",
+  },
+  {
+    id: 8,
+    title: "Color Generator",
+    url: "https://github.com/",
+    img: "./images/8.png",
+  },
+  {
+    id: 9,
+    title: "Grocery List",
+    url: "https://github.com/",
+    img: "./images/9.png",
+  },
+  {
+    id: 10,
+    title: "Navbar",
+    url: "https://github.com/",
+    img: "./images/10.png",
+  },
+  {
+    id: 11,
+    title: "Sidebar",
+    url: "https://github.com/",
+    img: "./images/11.png",
+  },
+  {
+    id: 12,
+    title: "Strapi",
+    url: "https://github.com/",
+    img: "./images/12.png",
+  },
+  {
+    id: 13,
+    title: "Cart",
+    url: "https://github.com/",
+    img: "./images/13.png",
+  },
+];
