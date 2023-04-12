@@ -14,7 +14,9 @@ function App() {
               <article key={item.id} className="cart-container">
                 <img className="img" src={item.img} alt="" />
                 <h5 className="title">{item.title}</h5>
-                <a className="btn btn-block">go to github</a>
+                <a target="blank" href={item.url} className="btn btn-block">
+                  go to github
+                </a>
               </article>
             );
           })}
