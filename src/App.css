@@ -265,11 +265,12 @@ main {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   gap: 2rem;
 }
 .cart-container {
   transition: var(--transition);
+  max-width: 400px;
+  margin: 0 auto;
 }
 .cart-container:hover {
   transform: scaleY(1.05);
@@ -284,4 +285,14 @@ main {
   display: grid;
   place-items: center;
   background: var(--white);
+}
+@media screen and (max-width: 1092px) {
+  .cart {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 662px) {
+  .cart {
+    grid-template-columns: 1fr;
+  }
 }
